@@ -36,3 +36,4 @@ Then visit `http://localhost:8000` in your web browser.
 
 ### 3. Using VS Code Live Server Extension (Optional)
 Right-click `index.html` in VS Code / Antigravity and select **"Open with Live Server"**.
+"# trial" 
