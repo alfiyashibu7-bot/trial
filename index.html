@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist - Modern & Clean Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">NovaCraft</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle dark/light mode">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <button class="btn btn-primary nav-cta">Get Started</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-badge">🚀 Welcome to your new web presence</div>
+        <h1 class="hero-title">
+          Build Beautiful Ideas with <span class="gradient-text">Simplicity</span> & Precision
+        </h1>
+        <p class="hero-description">
+          A lightweight, responsive, and thoughtfully designed HTML website. Clean typography, fast performance, and dark mode support built right in.
+        </p>
+        <div class="hero-actions">
+          <a href="#features" class="btn btn-primary">Explore Features</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Responsive</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">&lt; 10kb</span>
+            <span class="stat-label">Zero Bloat</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">A+</span>
+            <span class="stat-label">Performance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Key Highlights</span>
+          <h2 class="section-title">Everything you need to get started</h2>
+          <p class="section-subtitle">Crafted with pure HTML5, modern CSS3, and lightweight vanilla JavaScript.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Ultra Fast</h3>
+            <p class="feature-text">No heavy frameworks, external dependencies, or complex setup. Loads instantly in any modern browser.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3 class="feature-title">Fully Responsive</h3>
+            <p class="feature-text">Flawlessly adapts to screens of all sizes, from mobile smartphones and tablets to large desktop monitors.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🌗</div>
+            <h3 class="feature-title">Dark Mode Ready</h3>
+            <p class="feature-text">Includes built-in light and dark mode toggling with automatic theme preference memory using localStorage.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3 class="feature-title">Customizable Design</h3>
+            <p class="feature-text">Built with standard CSS variables making color schemes, spacing, and fonts simple to modify in seconds.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3 class="feature-title">Accessible & Semantic</h3>
+            <p class="feature-text">Structured with semantic HTML5 tags and accessible UI components ensuring great usability and SEO.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">💡</div>
+            <h3 class="feature-title">Easy to Extend</h3>
+            <p class="feature-text">Clean and documented code structure making it seamless to add pages, components, or backend APIs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+        <div class="about-content">
+          <span class="section-tag">About The Project</span>
+          <h2 class="section-title">Designed for clarity, elegance, and speed</h2>
+          <p class="about-text">
+            Whether you are creating a personal portfolio, presenting a project, or launching a new venture, starting with a clean foundation saves countless hours of development.
+          </p>
+          <ul class="about-list">
+            <li>✓ Pure semantic HTML structure</li>
+            <li>✓ Responsive CSS Flexbox & Grid system</li>
+            <li>✓ Vanilla JavaScript interactions</li>
+            <li>✓ Zero setup or build steps required</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Start Building Today</a>
+        </div>
+        <div class="about-preview">
+          <div class="code-card">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">index.html</span>
+            </div>
+            <pre class="code-body"><code>&lt;<span class="tag">main</span> <span class="attr">class</span>=<span class="val">"app"</span>&gt;
+  &lt;<span class="tag">header</span>&gt;
+    &lt;<span class="tag">h1</span>&gt;Hello World!&lt;/<span class="tag">h1</span>&gt;
+    &lt;<span class="tag">p</span>&gt;Fast, clean & beautiful.&lt;/<span class="tag">p</span>&gt;
+  &lt;/<span class="tag">header</span>&gt;
+&lt;/<span class="tag">main</span>&gt;</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Counter Demo Section -->
+    <section class="demo-section">
+      <div class="container text-center">
+        <span class="section-tag">Interactive Widget</span>
+        <h2 class="section-title">Try The Interactive Counter</h2>
+        <p class="section-subtitle">A quick demonstration of JavaScript interactivity in action.</p>
+
+        <div class="counter-box">
+          <div class="counter-display" id="counterValue">0</div>
+          <div class="counter-buttons">
+            <button class="btn btn-secondary" id="decrementBtn">- Decrease</button>
+            <button class="btn btn-secondary" id="resetBtn">Reset</button>
+            <button class="btn btn-primary" id="incrementBtn">+ Increase</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Contact Us</span>
+          <h2 class="section-title">Say hello or ask a question</h2>
+          <p class="section-subtitle">Send a quick message and test the form validation.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <div class="form-alert" id="formAlert"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">NovaCraft</span>
+        <p class="footer-desc">A clean and simple website starter for modern creators.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        &copy; <span id="currentYear"></span> NovaCraft. Built with HTML, CSS & JavaScript.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
